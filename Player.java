@@ -75,7 +75,6 @@ public class Player {
         // Gravity
         ySpeed = ySpeed + 0.8;
 
-        // Horizontal and Vertical Collision code from Youtube Channel Matthew Bellavia.
         // Horizontal Collision
         hitBox.x += xSpeed;
         for(Platform platform: myPanel.platforms){

@@ -20,7 +20,6 @@ public class GamePanel extends JPanel implements ActionListener{
         makePlatforms();
 
         // Begins the in-game timer and sets it to increment a second at about 60 frames.
-        // Credit to Youtube Channel Matthew Bellavia for this part of the code.
         gameTimer = new Timer();
         gameTimer.schedule(new TimerTask(){
             
